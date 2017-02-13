@@ -43,32 +43,61 @@ nav a {
 }
 
 
-.ColumbOne {
-	float: left;
-	clear: left;
-	padding-left: 70px;
+.projectPicture {
 	width:150px;
 	height: 150px;
-	position: relative; 
-	margin-bottom: 50px;
 }
 
-.ColumbTwo {
-	float: right;
-	padding-right: 70px;
-	width: 150px;
-	height: 150px;
+
+
+
+.Father{
 	position: relative;
-	margin-bottom: 50px;
+	float: left;
+	width: 170px;
+	height: 150px;
+	margin: 0 0 50px 70px;
+	clear: left;
 }
 
+.Mother {
+	position: relative;
+	float: right;
+	width: 170px;
+	height: 150px;
+	margin: 0 70px 50px 0px;
+
+}
 .Logo{
 	width: 50px;
 	height: 50px;
 	float: left;
 	margin: 10px;
-	text-align: center;
+	align-content: center;
 }
+
+.Project{
+	position: absolute;
+	width: 150px;
+	font-size: 20px;
+	background: #4aaaa5;
+	text-align: center;
+	color: white;
+	padding: 10px 0;
+	bottom: 0;
+}
+
+.Project2{
+	position: absolute;
+	width: 150px;
+	font-size: 20px;
+	background: #4aaaa5;
+	text-align: center;
+	color: white;
+	padding: 10px 0;
+	bottom: 0;
+}
+
 
 #Name{
 	background-color: #4aaaa5;
@@ -113,12 +142,13 @@ nav a {
 
 }
 
+
 #contact {
 	background-color: #fff;
 	padding: 0px 15px;
 	width: 270px; 
 	float: right;
-	color: grey
+	color: grey;
 
 }
 
