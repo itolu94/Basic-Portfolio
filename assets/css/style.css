@@ -98,6 +98,12 @@ nav a {
 	bottom: 0;
 }
 
+a[href="portfolio.html"] {
+	border-style: solid;
+	border-width: 0 1px;
+	padding: 0 5px;
+	border-color: grey;
+}
 
 #Name{
 	background-color: #4aaaa5;
