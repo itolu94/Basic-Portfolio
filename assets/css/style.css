@@ -1,3 +1,10 @@
+html{
+	min-height: 100%;
+	position: relative;
+	padding-bottom: 120px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
 body{
 	background-image: url("../images/Background.png");
 	background-repeat: repeat-x, 
@@ -7,6 +14,9 @@ body{
 
 
 header {
+	`font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #fff;
+	font-family: 
 	border-radius: 25px;
 	border-color: #ccc;
 	border-width: 1px;
@@ -37,9 +47,26 @@ h2 {
 }
 
 
+
 nav a {
 	color: grey;
 	font-size: 15px;
+}
+
+article {
+	line-height: 150%;
+	font-size: 20px;
+}
+
+article img {
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding-right: 20px;
+}
+
+footer p {
+	margin: auto;
 }
 
 
@@ -48,7 +75,11 @@ nav a {
 	height: 150px;
 }
 
-
+.profLogo {
+	margin-left: 30px;
+	height: 82px;
+	width: 270px
+}
 
 
 .Father{
@@ -76,7 +107,7 @@ nav a {
 	align-content: center;
 }
 
-.Project{
+.project{
 	position: absolute;
 	width: 150px;
 	font-size: 20px;
@@ -85,9 +116,10 @@ nav a {
 	color: white;
 	padding: 10px 0;
 	bottom: 0;
+	margin-bottom: 10px;
 }
 
-.Project2{
+.project2{
 	position: absolute;
 	width: 150px;
 	font-size: 20px;
@@ -96,6 +128,7 @@ nav a {
 	color: white;
 	padding: 10px 0;
 	bottom: 0;
+	margin-bottom: 10px;
 }
 
 a[href="portfolio.html"] {
@@ -105,6 +138,11 @@ a[href="portfolio.html"] {
 	border-color: grey;
 }
 
+div#contact h2 {
+	text-align: center;
+	margin-bottom: 0px;
+
+} 
 #Name{
 	background-color: #4aaaa5;
 	float: left;
@@ -113,10 +151,7 @@ a[href="portfolio.html"] {
 	color: white;
 }
 
-#Header{
-	background-color: #fff;
 
-}
 #About-Me{
 	clear: left;
 	width: 960px;
@@ -140,7 +175,7 @@ a[href="portfolio.html"] {
 	border-width: 1px;
 	border-color: #fff;
 	border-style: solid;
-	padding: 0px 15px;
+	padding: 8px 15px;
 	width: 600px;
 	float: left;
 	overflow: hidden;
@@ -151,23 +186,25 @@ a[href="portfolio.html"] {
 
 #contact {
 	background-color: #fff;
-	padding: 0px 15px;
+	padding: 0px 10px 0 10px; 
+	text-align: center;
 	width: 270px; 
 	float: right;
 	color: grey;
 
 }
 
-
-
 #Footer{
-	position: fixed;
+	position: absolute;
 	bottom: 0px;
 	background-color: #666666;
+	border-color: #4aaaa5;
+	border-top-width: 8px;
+	border-style: solid;
 	width: 100%;
-	padding: 15px 0;
+	height: 50px;
 	text-align: center;
-	border-color: 
+	padding-top: 10px;
 }
 
 
