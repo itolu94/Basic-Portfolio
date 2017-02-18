@@ -76,9 +76,9 @@ footer p {
 }
 
 .profLogo {
-	margin-left: 30px;
-	height: 82px;
+	height: 65px;
 	width: 270px
+
 }
 
 
@@ -102,9 +102,9 @@ footer p {
 .Logo{
 	width: 50px;
 	height: 50px;
-	float: left;
-	margin: 10px;
-	align-content: center;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
 }
 
 .project{
@@ -138,9 +138,13 @@ a[href="portfolio.html"] {
 	border-color: grey;
 }
 
+div.profLogo a:nth-child(2) {
+	margin: 0 20px;
+}
+
 div#contact h2 {
 	text-align: center;
-	margin-bottom: 0px;
+	margin-bottom: 10px;
 
 } 
 #Name{
